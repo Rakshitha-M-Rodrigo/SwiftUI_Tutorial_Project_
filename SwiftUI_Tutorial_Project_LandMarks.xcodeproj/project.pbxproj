@@ -14,6 +14,7 @@
 		C79E08542AC377F7005F8CAA /* SwiftUI_Tutorial_Project_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E08532AC377F7005F8CAA /* SwiftUI_Tutorial_Project_Tests.swift */; };
 		C79E085E2AC377F7005F8CAA /* SwiftUI_Tutorial_Project_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E085D2AC377F7005F8CAA /* SwiftUI_Tutorial_Project_UITests.swift */; };
 		C79E08602AC377F7005F8CAA /* SwiftUI_Tutorial_Project_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E085F2AC377F7005F8CAA /* SwiftUI_Tutorial_Project_UITestsLaunchTests.swift */; };
+		C79E086D2AC3791A005F8CAA /* ContentViewiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E086C2AC3791A005F8CAA /* ContentViewiPad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C79E08592AC377F7005F8CAA /* SwiftUI_Tutorial_Project_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_Tutorial_Project_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79E085D2AC377F7005F8CAA /* SwiftUI_Tutorial_Project_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Tutorial_Project_UITests.swift; sourceTree = "<group>"; };
 		C79E085F2AC377F7005F8CAA /* SwiftUI_Tutorial_Project_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Tutorial_Project_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C79E086C2AC3791A005F8CAA /* ContentViewiPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewiPad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C79E08422AC377F4005F8CAA /* SwiftUI_Tutorial_Project_App.swift */,
 				C79E08442AC377F4005F8CAA /* ContentView.swift */,
+				C79E086C2AC3791A005F8CAA /* ContentViewiPad.swift */,
 				C79E08462AC377F6005F8CAA /* Assets.xcassets */,
 				C79E08482AC377F6005F8CAA /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79E08452AC377F4005F8CAA /* ContentView.swift in Sources */,
+				C79E086D2AC3791A005F8CAA /* ContentViewiPad.swift in Sources */,
 				C79E08432AC377F4005F8CAA /* SwiftUI_Tutorial_Project_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

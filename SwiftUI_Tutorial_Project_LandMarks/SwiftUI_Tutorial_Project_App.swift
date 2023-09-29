@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct SwiftUI_Tutorial_Project_App: App {
+    private var idiom : UIUserInterfaceIdiom { UIDevice.current.userInterfaceIdiom }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if(idiom == .pad){
+                ContentViewiPad()
+            } else {
+                ContentView()
+            }
+            
         }
     }
 }

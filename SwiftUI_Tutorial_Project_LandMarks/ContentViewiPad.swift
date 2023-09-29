@@ -7,18 +7,24 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentViewiPad: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, world! iPad")
+                .foregroundStyle(.secondary)
+                .font(.caption)
+            Text("Hello, world! iPad")
+                .foregroundStyle(.secondary)
+                .font(.caption2)
+            
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentViewiPad()
 }

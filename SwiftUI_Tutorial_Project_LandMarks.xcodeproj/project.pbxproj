@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C71EBA0B2AC382C20028822D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71EBA0A2AC382C20028822D /* CircleView.swift */; };
 		C71EBA0D2AC3877D0028822D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71EBA0C2AC3877D0028822D /* MapView.swift */; };
+		C766A5A72ACEF8F900F6D2D3 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C766A5A62ACEF8F900F6D2D3 /* LandmarkList.swift */; };
 		C792AF4C2ACE085B00ADF7FC /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792AF4B2ACE085B00ADF7FC /* Landmark.swift */; };
 		C792AF4E2ACE0C0100ADF7FC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792AF4D2ACE0C0100ADF7FC /* ModelData.swift */; };
 		C792AF522ACE0EFF00ADF7FC /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792AF512ACE0EFF00ADF7FC /* LandmarkRow.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		C71EBA0A2AC382C20028822D /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		C71EBA0C2AC3877D0028822D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C766A5A62ACEF8F900F6D2D3 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		C792AF4B2ACE085B00ADF7FC /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		C792AF4D2ACE0C0100ADF7FC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		C792AF512ACE0EFF00ADF7FC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				C71EBA0A2AC382C20028822D /* CircleView.swift */,
 				C71EBA0C2AC3877D0028822D /* MapView.swift */,
 				C792AF512ACE0EFF00ADF7FC /* LandmarkRow.swift */,
+				C766A5A62ACEF8F900F6D2D3 /* LandmarkList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				C79E08452AC377F4005F8CAA /* ContentView.swift in Sources */,
 				C71EBA0D2AC3877D0028822D /* MapView.swift in Sources */,
 				C79E086D2AC3791A005F8CAA /* ContentViewiPad.swift in Sources */,
+				C766A5A72ACEF8F900F6D2D3 /* LandmarkList.swift in Sources */,
 				C79E08432AC377F4005F8CAA /* SwiftUI_Tutorial_Project_App.swift in Sources */,
 				C792AF4C2ACE085B00ADF7FC /* Landmark.swift in Sources */,
 				C792AF522ACE0EFF00ADF7FC /* LandmarkRow.swift in Sources */,

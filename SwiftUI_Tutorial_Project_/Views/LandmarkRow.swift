@@ -23,6 +23,14 @@ struct LandmarkRow: View {
 }
 
 
-#Preview(traits: .sizeThatFitsLayout) {
-    LandmarkRow(landmark: landmarks[0])
+#Preview("Turtle Rock", traits: .sizeThatFitsLayout) {
+    Group{
+        LandmarkRow(landmark: landmarks[0])
+        LandmarkRow(landmark: landmarks[1])
+    }
+    
 }
+//
+//#Preview("Salmon", traits: .sizeThatFitsLayout) {
+//    
+//}

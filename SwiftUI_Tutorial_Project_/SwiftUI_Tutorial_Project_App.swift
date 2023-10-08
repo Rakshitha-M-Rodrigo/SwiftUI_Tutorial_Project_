@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct SwiftUI_Tutorial_Project_App: App {
     private var idiom : UIUserInterfaceIdiom { UIDevice.current.userInterfaceIdiom }
+    @State private var modelData = ModelData()
     
     var body: some Scene {
         WindowGroup {
@@ -17,6 +18,7 @@ struct SwiftUI_Tutorial_Project_App: App {
                 ContentViewiPad()
             } else {
                 ContentView()
+                    .environment(modelData)
             }
             
         }

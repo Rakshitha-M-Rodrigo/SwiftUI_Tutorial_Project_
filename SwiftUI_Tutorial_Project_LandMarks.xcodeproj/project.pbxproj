@@ -35,6 +35,7 @@
 		C7BF999B2AD5E2820033F07A /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF999A2AD5E2820033F07A /* HexagonParameters.swift */; };
 		C7BF999D2AD616DE0033F07A /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF999C2AD616DE0033F07A /* BadgeBackground.swift */; };
 		C7C78B5B2AD3274A00574E7F /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C78B5A2AD3274A00574E7F /* FavoriteButton.swift */; };
+		C7FB16652ADF193E00D9C412 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB16642ADF193E00D9C412 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		C7BF999A2AD5E2820033F07A /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		C7BF999C2AD616DE0033F07A /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		C7C78B5A2AD3274A00574E7F /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		C7FB16642ADF193E00D9C412 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				C79E08442AC377F4005F8CAA /* ContentView.swift */,
+				C7FB16632ADF192B00D9C412 /* Categories */,
 				C7513B582AD8829600E498E2 /* Hikes */,
 				C7513B532AD8775F00E498E2 /* Badge */,
 				C7C78B5D2AD329C000574E7F /* Helper */,
@@ -244,6 +247,14 @@
 				C7C78B5A2AD3274A00574E7F /* FavoriteButton.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		C7FB16632ADF192B00D9C412 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C7FB16642ADF193E00D9C412 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +393,7 @@
 				C7BF999B2AD5E2820033F07A /* HexagonParameters.swift in Sources */,
 				C71EBA0B2AC382C20028822D /* CircleView.swift in Sources */,
 				C79E08452AC377F4005F8CAA /* ContentView.swift in Sources */,
+				C7FB16652ADF193E00D9C412 /* CategoryHome.swift in Sources */,
 				C7513B5E2AD8829600E498E2 /* HikeGraph.swift in Sources */,
 				C71EBA0D2AC3877D0028822D /* MapView.swift in Sources */,
 				C79E086D2AC3791A005F8CAA /* ContentViewiPad.swift in Sources */,

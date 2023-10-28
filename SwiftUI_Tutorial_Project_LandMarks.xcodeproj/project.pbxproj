@@ -156,8 +156,9 @@
 		C792AF4F2ACE0E1B00ADF7FC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C7FB166C2AE1C20100D9C412 /* Profiles */,
 				C79E08442AC377F4005F8CAA /* ContentView.swift */,
+				C79E086C2AC3791A005F8CAA /* ContentViewiPad.swift */,
+				C7FB166C2AE1C20100D9C412 /* Profiles */,
 				C7FB16632ADF192B00D9C412 /* Categories */,
 				C7513B582AD8829600E498E2 /* Hikes */,
 				C7513B532AD8775F00E498E2 /* Badge */,
@@ -205,7 +206,6 @@
 				C79E08422AC377F4005F8CAA /* SwiftUI_Tutorial_Project_App.swift */,
 				C792AF4F2ACE0E1B00ADF7FC /* Views */,
 				C792AF502ACE0E3800ADF7FC /* Model */,
-				C79E086C2AC3791A005F8CAA /* ContentViewiPad.swift */,
 				C79E08462AC377F6005F8CAA /* Assets.xcassets */,
 				C79E08482AC377F6005F8CAA /* Preview Content */,
 			);

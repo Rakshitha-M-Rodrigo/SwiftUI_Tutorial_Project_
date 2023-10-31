@@ -11,6 +11,9 @@
 		C71EBA0B2AC382C20028822D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71EBA0A2AC382C20028822D /* CircleView.swift */; };
 		C71EBA0D2AC3877D0028822D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71EBA0C2AC3877D0028822D /* MapView.swift */; };
 		C72DFEBE2AF18190001B63E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79E08462AC377F6005F8CAA /* Assets.xcassets */; };
+		C72DFEC12AF19FFB001B63E7 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72DFEC02AF19FFB001B63E7 /* NotificationView.swift */; };
+		C72DFEC32AF1A1A4001B63E7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72DFEC22AF1A1A4001B63E7 /* NotificationController.swift */; };
+		C72DFEC52AF1A57B001B63E7 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = C72DFEC42AF1A57B001B63E7 /* PushNotificationPayload.apns */; };
 		C74CAF912AED4A0900FC64AB /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CAF902AED4A0900FC64AB /* HikeBadge.swift */; };
 		C74CAF932AED92B400FC64AB /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CAF922AED92B400FC64AB /* ProfileEditor.swift */; };
 		C74CAF962AEDAFF600FC64AB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CAF952AEDAFF600FC64AB /* PageViewController.swift */; };
@@ -126,6 +129,9 @@
 		C71240A72AD78537002A39A8 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		C71EBA0A2AC382C20028822D /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		C71EBA0C2AC3877D0028822D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C72DFEC02AF19FFB001B63E7 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C72DFEC22AF1A1A4001B63E7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C72DFEC42AF1A57B001B63E7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		C74CAF902AED4A0900FC64AB /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		C74CAF922AED92B400FC64AB /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		C74CAF952AEDAFF600FC64AB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
@@ -238,7 +244,10 @@
 		C74CAFA22AF0A81C00FC64AB /* WatchLandmarks Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				C72DFEC42AF1A57B001B63E7 /* PushNotificationPayload.apns */,
 				C74CAFA52AF0A81C00FC64AB /* ContentView.swift */,
+				C72DFEC02AF19FFB001B63E7 /* NotificationView.swift */,
+				C72DFEC22AF1A1A4001B63E7 /* NotificationController.swift */,
 				C76EA0B72AF17128003B26A3 /* LandmarkDetail.swift */,
 				C74CAFA72AF0A81D00FC64AB /* Assets.xcassets */,
 				C74CAFA92AF0A81D00FC64AB /* Preview Content */,
@@ -613,6 +622,7 @@
 				C74CAFA82AF0A81D00FC64AB /* Assets.xcassets in Resources */,
 				C76EA0B12AF168AA003B26A3 /* landmarkData.json in Resources */,
 				C72DFEBE2AF18190001B63E7 /* Assets.xcassets in Resources */,
+				C72DFEC52AF1A57B001B63E7 /* PushNotificationPayload.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,12 +675,14 @@
 				C76EA0AF2AF168AA003B26A3 /* CircleView.swift in Sources */,
 				C74CAFA62AF0A81C00FC64AB /* ContentView.swift in Sources */,
 				C76EA0AD2AF168AA003B26A3 /* Profile.swift in Sources */,
+				C72DFEC12AF19FFB001B63E7 /* NotificationView.swift in Sources */,
 				C76EA0B02AF168AA003B26A3 /* Hike.swift in Sources */,
 				C76EA0B92AF17315003B26A3 /* ContentViewiPad.swift in Sources */,
 				C76EA0BA2AF174C2003B26A3 /* SwiftUI_Tutorial_Project_App.swift in Sources */,
 				C76EA0AE2AF168AA003B26A3 /* ModelData.swift in Sources */,
 				C76EA0AC2AF168AA003B26A3 /* LandmarkList.swift in Sources */,
 				C76EA0B52AF168AA003B26A3 /* MapView.swift in Sources */,
+				C72DFEC32AF1A1A4001B63E7 /* NotificationController.swift in Sources */,
 				C76EA0B62AF168AA003B26A3 /* LandmarkRow.swift in Sources */,
 				C76EA0AB2AF168AA003B26A3 /* Landmark.swift in Sources */,
 				C76EA0B82AF17128003B26A3 /* LandmarkDetail.swift in Sources */,

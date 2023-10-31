@@ -55,6 +55,7 @@ struct LandmarkDetail: View {
             
         }
         .navigationTitle("Landmarks")
+//        .navigationBarTitleDisplayMode(.automatic)
         
     }
         

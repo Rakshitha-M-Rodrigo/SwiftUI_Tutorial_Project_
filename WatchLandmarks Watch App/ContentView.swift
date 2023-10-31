@@ -8,29 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection: Tab = .featuted
-    
-    enum Tab {
-        case featuted
-        case list
-    }
+//    @EnvironmentObject var modelData: ModelData
     
     var body: some View {
-        TabView(selection: $selection){
-            
-            Text("Hello Watch ContentView")
-//            CategoryHome()
-//                .tabItem {
-//                    Label("Featured", systemImage: "star")
-//                }
-//                .tag(Tab.featuted)
-//            LandmarkList()
-//                .tabItem {
-//                    Label("List", systemImage: "list.bullet")
-//                }
-//                .tag(Tab.list)
-        }
-        
+            LandmarkList()
     }
 }
 

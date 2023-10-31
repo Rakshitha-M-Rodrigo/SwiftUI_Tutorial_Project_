@@ -6,21 +6,47 @@
 //
 
 import SwiftUI
+import UIKit
+import Foundation
+
 
 @main
 struct SwiftUI_Tutorial_Project_App: App {
-    private var idiom : UIUserInterfaceIdiom { UIDevice.current.userInterfaceIdiom }
+//    private var idiom: UIUserInterfaceIdiom {
+//        UIDevice.current.userInterfaceIdiom
+//    }
     @State private var modelData = ModelData()
     
     var body: some Scene {
         WindowGroup {
-            if(idiom == .pad){
-                ContentViewiPad()
-            } else {
-                ContentView()
-                    .environment(modelData)
-            }
             
+            ContentView()
+                .environment(modelData)
+            
+//            if(UIDevice.current.localizedModel == "UIINterface"){
+//                ContentViewiPad()
+//            } else {
+//                ContentView()
+//                    .environment(modelData)
+//            }
+            
+//            switch traitCollection.userInterfaceIdiom {
+//                    
+//                case .unspecified:
+//                    // do something
+//                case .phone:
+//                    // do something
+//                case .pad:
+//                    // do something
+//                case .tv:
+//                    // do something
+//                case .carPlay:
+//                    // do something
+//                case .mac:
+//                    // do something
+//                @unknown default:
+//                    // do something
+//            }
         }
     }
 }

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1500"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C74CAFA02AF0A81C00FC64AB"
+               BuildableName = "WatchLandmarks Watch App.app"
+               BlueprintName = "WatchLandmarks Watch App"
+               ReferencedContainer = "container:SwiftUI_Tutorial_Project_LandMarks.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C79E083E2AC377F4005F8CAA"
+               BuildableName = "SwiftUI_Tutorial_Project_LandMarks.app"
+               BlueprintName = "SwiftUI_Tutorial_Project_LandMarks"
+               ReferencedContainer = "container:SwiftUI_Tutorial_Project_LandMarks.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C74CAFAF2AF0A81D00FC64AB"
+               BuildableName = "WatchLandmarks Watch AppTests.xctest"
+               BlueprintName = "WatchLandmarks Watch AppTests"
+               ReferencedContainer = "container:SwiftUI_Tutorial_Project_LandMarks.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C74CAFB92AF0A81D00FC64AB"
+               BuildableName = "WatchLandmarks Watch AppUITests.xctest"
+               BlueprintName = "WatchLandmarks Watch AppUITests"
+               ReferencedContainer = "container:SwiftUI_Tutorial_Project_LandMarks.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C74CAFA02AF0A81C00FC64AB"
+            BuildableName = "WatchLandmarks Watch App.app"
+            BlueprintName = "WatchLandmarks Watch App"
+            ReferencedContainer = "container:SwiftUI_Tutorial_Project_LandMarks.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C74CAFA02AF0A81C00FC64AB"
+            BuildableName = "WatchLandmarks Watch App.app"
+            BlueprintName = "WatchLandmarks Watch App"
+            ReferencedContainer = "container:SwiftUI_Tutorial_Project_LandMarks.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

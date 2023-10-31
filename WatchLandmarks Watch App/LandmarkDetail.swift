@@ -13,19 +13,80 @@ struct LandmarkDetail: View {
     
     var landmark: Landmark
     
-    var landmarkInt: Int {
+    var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: {
             $0.id == landmark.id
         })!
     }
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack {
+                CircleView(image: landmark.image.resizable())
+                    .scaledToFit()
+                
+                Text(landmark.name)
+                    .font(.headline)
+                    .lineLimit(0)
+                
+                Toggle(isOn: $modelData.landmarks[landmarkIndex].isFavorite, label: {
+                    Text("Favorite")
+                })
+                
+                Divider()
+                
+                Text(landmark.park)
+                    .font(.caption)
+                    .bold()
+                    .lineLimit(0)
+                
+                Text(landmark.state)
+                    .font(.caption)
+                
+                Divider()
+                
+                MapView(coordinate: landmark.locationCoordinates)
+                    .scaledToFit()
+                    
+                
+                
+            }
+            .padding(16)
+            
+        }
+        .navigationTitle("Landmarks")
+        
     }
+        
 }
 
 #Preview {
     let modelData = ModelData()
     return LandmarkDetail(landmark: modelData.landmarks[0])
-        .environment(modelData)
+            .environment(modelData)
+    
+    
+//            .previewDevice("Apple Watch Series 5 - 41mm")
+//
+//        LandmarkDetail(landmark: modelData.landmarks[0])
+//            .environment(modelData)
+//            .previewDevice("Apple Watch Series 5 - 41mm")
+        
+        
 }
+
+//struct LandmarkDetail_Previews: PreviewProvider {
+//    static var previews: some View {
+//        let modelData = ModelData()
+//        return Group {
+//            LandmarkDetail(landmark: modelData.landmarks[0])
+//                .environmentObject(modelData)
+//                .previewDevice("Apple Watch Series 9 - 45mm")
+//
+//
+//            LandmarkDetail(landmark: modelData.landmarks[1])
+//                .environmentObject(modelData)
+//                .previewDevice("Apple Watch Series 9 - 41mm")
+//        }
+//    }
+//}

@@ -9,9 +9,10 @@ import Foundation
 import SwiftUI
 
 struct LandmarkList: View {
-    @Environment(ModelData.self) var modelData
+    @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
     @State private var filter = FilterCategory.all
+    @State private var selectedLandmark: Landmark?
     
     enum FilterCategory: String, CaseIterable, Identifiable {
         var id: FilterCategory {self}
@@ -29,6 +30,10 @@ struct LandmarkList: View {
         }
     }
     
+    var index: Int? {
+        modelData.landmarks.firstIndex(where: {$0.id == selectedLandmark?.id})
+    }
+    
     var title: String {
         let title = filter == .all ? "Landmarks" : filter.rawValue
         return showFavoritesOnly ? "Favorite \(title)": title
@@ -36,7 +41,7 @@ struct LandmarkList: View {
     
     var body: some View {
         NavigationSplitView {
-            List {
+            List(selection: $selectedLandmark) {
                 
                 ForEach(filteredLandmarks){ landmark in
                     NavigationLink {
@@ -44,7 +49,7 @@ struct LandmarkList: View {
                     } label: {
                         LandmarkRow(landmark: landmark)
                     }
-                    
+                    .tag(landmark)
                 }
                 
             }
@@ -74,7 +79,9 @@ struct LandmarkList: View {
         } detail: {
             Text("Select a Landmark")
         }
+        .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
     }
+    
 }
 
 #Preview {

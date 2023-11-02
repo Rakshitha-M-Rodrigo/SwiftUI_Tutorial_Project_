@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-import UIKit
+//import UIKit
 
 @Observable
 class ModelData: ObservableObject {

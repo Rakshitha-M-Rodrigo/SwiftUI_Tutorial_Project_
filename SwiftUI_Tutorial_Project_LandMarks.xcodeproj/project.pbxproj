@@ -33,6 +33,7 @@
 		C72DFEFF2AF2EDFB001B63E7 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792AF4B2ACE085B00ADF7FC /* Landmark.swift */; };
 		C72DFF002AF2EDFB001B63E7 /* SwiftUI_Tutorial_Project_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E08422AC377F4005F8CAA /* SwiftUI_Tutorial_Project_App.swift */; };
 		C72DFF012AF2EDFB001B63E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79E08462AC377F6005F8CAA /* Assets.xcassets */; };
+		C72DFF032AF2F503001B63E7 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72DFF022AF2F503001B63E7 /* LandmarkDetail.swift */; };
 		C74CAF912AED4A0900FC64AB /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CAF902AED4A0900FC64AB /* HikeBadge.swift */; };
 		C74CAF932AED92B400FC64AB /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CAF922AED92B400FC64AB /* ProfileEditor.swift */; };
 		C74CAF962AEDAFF600FC64AB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74CAF952AEDAFF600FC64AB /* PageViewController.swift */; };
@@ -175,6 +176,7 @@
 		C72DFEE42AF2ED35001B63E7 /* MacLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72DFEE82AF2ED36001B63E7 /* MacLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITests.swift; sourceTree = "<group>"; };
 		C72DFEEA2AF2ED36001B63E7 /* MacLandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C72DFF022AF2F503001B63E7 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		C74CAF902AED4A0900FC64AB /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		C74CAF922AED92B400FC64AB /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		C74CAF952AEDAFF600FC64AB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				C72DFECE2AF2ED33001B63E7 /* ContentView.swift */,
+				C72DFF022AF2F503001B63E7 /* LandmarkDetail.swift */,
 				C72DFED02AF2ED35001B63E7 /* Assets.xcassets */,
 				C72DFED52AF2ED35001B63E7 /* MacLandmarks.entitlements */,
 				C72DFED22AF2ED35001B63E7 /* Preview Content */,
@@ -875,6 +878,7 @@
 				C72DFEF72AF2EDFB001B63E7 /* FavoriteButton.swift in Sources */,
 				C72DFECF2AF2ED33001B63E7 /* ContentView.swift in Sources */,
 				C72DFEF92AF2EDFB001B63E7 /* MapView.swift in Sources */,
+				C72DFF032AF2F503001B63E7 /* LandmarkDetail.swift in Sources */,
 				C72DFF002AF2EDFB001B63E7 /* SwiftUI_Tutorial_Project_App.swift in Sources */,
 				C72DFEF82AF2EDFB001B63E7 /* LandmarkRow.swift in Sources */,
 				C72DFEFC2AF2EDFB001B63E7 /* ModelData.swift in Sources */,

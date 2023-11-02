@@ -48,6 +48,13 @@ struct SwiftUI_Tutorial_Project_App: App {
 //                    // do something
 //            }
         }
+        #if !os(watchOS)
+        .commands {
+            LandmarkCommands()
+        }
+        #endif
+        
+        
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "LandmarkNear")
         #endif

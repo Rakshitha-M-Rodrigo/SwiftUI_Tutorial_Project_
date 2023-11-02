@@ -1,8 +1,8 @@
 //
 //  LandmarkList.swift
-//  SwiftUI_Tutorial_Project_LandMarks
+//  MacLandmarks
 //
-//  Created by Rakshitha Rodrigo on 2023-10-05.
+//  Created by Rakshitha Rodrigo on 2023-11-01.
 //
 
 import Foundation
@@ -35,7 +35,6 @@ struct LandmarkList: View {
                 
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
 //            .scrollIndicators(.hidden)
         } detail: {
             Text("Select a Landmark")

@@ -80,6 +80,12 @@ struct LandmarkList: View {
             Text("Select a Landmark")
         }
         .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
+        
+//        if (index ?? 0 > 0){
+//            
+//        }
+            
+        
     }
     
 }
